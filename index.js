@@ -1,7 +1,7 @@
-const { promisify } = require('util');
-const { exec } = require('child_process');
 const { promises: fs } = require('fs');
-const execAsync = promisify(exec);
+const { execFile } = require('child_process');
+const { promisify } = require('util');
+const execAsync = promisify(execFile);
 
 const debug = require('debug')('read-binary-file-arch');
 
@@ -63,7 +63,7 @@ async function readPEArch(filePath) {
 }
 
 async function getArchUsingFileCommand(filePath) {
-  const { stdout } = await execAsync(`file "${filePath}"`);
+  const { stdout } = await execAsync('file', ['--', filePath]);
   const output = stdout.trim();
   debug('file command output:', output);
 

@@ -1,5 +1,5 @@
 {
-  "name": "read-binary-file-arch",
+  "name": "@exodus/read-binary-file-arch",
   "version": "1.0.6",
   "description": "Reads a binary file to determine its CPU architecture.",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/samuelmaddock/read-binary-file-arch.git"
+    "url": "git+ssh://git@github.com/ExodusMovement/read-binary-file-arch.git"
   },
   "keywords": [
     "binary",
@@ -23,9 +23,9 @@
   "author": "Samuel Maddock",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/samuelmaddock/read-binary-file-arch/issues"
+    "url": "https://github.com/ExodusMovement/read-binary-file-arch/issues"
   },
-  "homepage": "https://github.com/samuelmaddock/read-binary-file-arch#readme",
+  "homepage": "https://github.com/ExodusMovement/read-binary-file-arch#readme",
   "dependencies": {
     "debug": "^4.3.4"
   },

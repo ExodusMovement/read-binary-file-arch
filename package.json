@@ -1,14 +1,11 @@
 {
   "name": "@exodus/read-binary-file-arch",
-  "version": "1.0.6",
+  "version": "1.0.6-exodus",
   "description": "Reads a binary file to determine its CPU architecture.",
   "main": "index.js",
   "types": "./index.d.ts",
   "bin": {
     "read-binary-file-arch": "cli.js"
-  },
-  "scripts": {
-    "test": "node test.js"
   },
   "repository": {
     "type": "git",
